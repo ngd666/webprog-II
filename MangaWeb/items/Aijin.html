@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manga Mania</title>
+    
+    <link rel="stylesheet" type="text/css" href="../src/styles.css">
+    <link rel="stylesheet" type="text/css" href="../src/items.css">
+</head>
+<body>
+ 
+  <!-- the header is the same as in home.html -->
+  <header>
+        <div id="top">
+            <div class="logo">
+               <a href="../home.html">
+                   <img src="../img/header/logo.png" alt="Site Logo">
+               </a>
+            </div>
+            <ul>
+                <li>
+                    <div class="home">
+                        <a href="../home.html">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="search">
+                        <input type="text" value="" placeholder="Search manga, character, ..." name="" id="">
+                        <button><i>search</i></button>
+                    </div>
+                </li>
+            </ul>    
+        </div>
+    </header>
+    
+    
+    <div id="container">
+        <div class="main">    <!-- the area for thumbnail and some info about the manga, missing a short description of the story -->
+            <main>
+                <section class="thumb">
+                    <img src="../img/manga/aijin.jpg" alt="">
+                </section>
+                <section class="info">
+                    <h2>
+                        <p>Aijin: Demi-Human</p>
+                    </h2>
+                        <div class="author">
+                            <p><strong>Author:</strong> Gamon Sakurai
+                            <p><strong>Genre:</strong> supernatural, thriller, dark fantasy</p>
+                        </div>
+
+                </section>
+            </main>
+        </div>
+        <div class="list">    <!-- I couldn't think of a smart/clean way to present the reading chapter, my method is to use a bunch of <img>-s but it's so bad... -->
+        <!--
+            icon: maybe main character of that chapter
+            subj: as in subject, name of chapter, ex: "Ep. 1: The Begining of Corruption"
+            tx: ez mint sorszám
+        -->
+            <ul>
+               <li id="chapter">
+                    <a href="">    <!-- these need to have its own webpage -->
+                        <span class="icon">
+                            <img src="../img/icon/aijin_icon.jpg" alt="">
+                        </span>
+                        <div class="text">   
+                            <span class="subj">Extra 1</span>
+                            <span class="date">2019 Jan 24</span>
+                            <span class="tx">#5</span>
+                        </div>
+                    </a>
+                </li>
+                <li id="chapter">
+                    <a href="">
+                        <span class="icon">
+                            <img src="../img/icon/aijin_icon.jpg" alt="">
+                        </span>
+                        <div class="text">   
+                            <span class="subj">Ep. 3</span>
+                            <span class="date">2019 Jan 17</span>
+                            <span class="tx">#4</span>
+                        </div>
+                    </a>
+                </li>
+                <li id="chapter">
+                    <a href="">
+                        <span class="icon">
+                            <img src="../img/icon/aijin_icon.jpg" alt="">
+                        </span>
+                        <div class="text">   
+                            <span class="subj">Ep. 2</span>
+                            <span class="date">2019 Jan 10</span>
+                            <span class="tx">#3</span>
+                        </div>
+                    </a>
+                </li>
+                <li id="chapter">
+                    <a href="">
+                        <span class="icon">
+                            <img src="../img/icon/aijin_icon.jpg" alt="">
+                        </span>
+                        <div class="text">   
+                            <span class="subj">Ep.  1</span>
+                            <span class="date">2019 Jan 3</span>
+                            <span class="tx">#2</span>
+                        </div>
+                    </a>
+                </li>
+                <li id="chapter">
+                    <a href="">
+                        <span class="icon">
+                            <img src="../img/icon/aijin_icon.jpg" alt="">
+                        </span>
+                        <div class="text">   
+                            <span class="subj">Ep. 0</span>
+                            <span class="date">2018 Dec 26</span>
+                            <span class="tx">#1</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+

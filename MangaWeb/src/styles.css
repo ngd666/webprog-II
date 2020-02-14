@@ -1,0 +1,164 @@
+/* used for both home.html and aijin.html */
+
+img 
+{
+    height: 100%;
+    width: auto;    /* for auto adjusting the images, in case the user resize the web browser */
+}
+
+/* kinda for reseting the setting of link stuffs */
+a
+{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: darkblue;
+}
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    min-width: 900px;
+    margin: 0;
+    padding: 0;
+    background-color: #DCDCDC;
+    font-family: Arial;
+}
+    
+    header
+    {
+        height: 65px;
+        background-color: white;
+        margin: 0;
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        
+        border-bottom-style: solid;
+        border-color: #696969;
+    }
+        .logo img
+        {
+            margin: 0;
+            padding-left: 30px;
+            float: left;
+            max-height: 65px;
+            width: 170px;
+        }
+        header ul
+        {
+            display: inline;
+            float: right;
+            margin: 0;
+            padding-top: 15px;
+            padding-right: 20px;
+        }
+        header li
+        {
+            display: inline-block;
+            font-size: 20px;
+        }
+        header .home
+        {
+            padding-right: 40px;
+        }
+        .home a
+        {
+            padding: 4px 6px;
+        }
+        .home a:hover
+        {
+            background-color: gray;
+            color: whitesmoke;
+        }
+
+    #container
+    {
+        background-color: white;
+        margin: 2% 10%;
+        padding: 1px 30px;
+        min-height: 100%;
+        
+        border-bottom-style: solid;
+        border-right-style: solid;
+        border-color: #696969;
+        border-radius: 3px;
+    }
+        h2
+        {
+            padding-left: 0;
+            font-family: Arial;
+        }
+
+    .manga-cards
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        list-style: none;
+        -ms-box-orient: horizontal;
+        display: -webkit-box;    /* this part is hideous xD but yeah... flex here is for sorting the manga cards, found this online but not sure which display type is good so I just put them all in :v */
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;    /* Tho I think only this one is applied */
+        justify-content: space-between;
+        
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .manga-cards img
+    {
+        height: 320px;
+        width: 220px;
+    }
+    .manga-cards li a
+    {
+        display: inline-block;
+        text-align: center;
+        padding: 12px 20px;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+    }
+    .manga-cards a:hover
+    {
+        background-color: gray;
+        color: whitesmoke;
+    }
+    .manga-cards li p
+    {
+        margin: 1px;
+        padding: 0;
+    }
+    .manga-cards .empty
+    {
+        display: inline-block;
+        width: 260px;
+    }
+
+/*
+footer
+{
+    clear: both;
+    height: 80;
+    width: 100%;
+    text-align: right;
+    
+    background-color: white;
+    margin: 0;
+    padding: 2px 0;
+}
+    footer p
+    {
+        padding-right: 10px;
+        margin: 5px;
+    }*/

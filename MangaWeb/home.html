@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manga Mania</title>
+    
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+</head>
+<body>
+ 
+  <!-- for logo and navigation, search -->
+  <header>
+        <div id="top">
+            <div class="logo">    <!-- logo -->
+               <a href="">
+                   <img src="img/header/logo.png" alt="Site Logo">
+               </a>
+            </div>
+            <ul>    <!-- navigation -->
+                <li>
+                    <div class="home">
+                        <a href="">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <!-- wanted to add a search engine but without a database for storing comics, this wasn't possible, so I just left it for show -->
+                    <div class="search">
+                        <input type="text" value="" placeholder="Search manga, character, ..." name="" id="">
+                        <button><i>search</i></button>
+                    </div>
+                </li>
+            </ul>    
+        </div>
+    </header>
+    
+    <!-- the main part of the website -->
+    <div id="container">
+        <section class="manga">
+            <div>
+                <div class="manga-head">
+                    <h2><strong>Manga List</strong></h2>
+                </div>
+                <div class ="manga-list">
+                    <ul class="manga-cards">
+                        <!-- each li will represent a manga title/card -->
+                        <li>    <!-- only this one has its link to the actual manga chapters, serve as an example, the other manga pages will look like it, just with different images -->
+                            <a href="items/Aijin.html">
+                                <img src="img/manga/aijin.jpg" alt>
+                                <p>Aijin</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/naruto.jpg" alt="">
+                                <p>Naruto</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/one-piece.jpg" alt="">
+                                <p>One Piece</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/one-punch-man.jpeg" alt="">
+                                <p>One-Punch Man</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/my-hero-aca.jpg" alt="">
+                                <p>My Hero Academy</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/beelzebub.jpg" alt="">
+                                <p>Beelzebub</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="items/Aijin.html">
+                                <img src="img/manga/aijin.jpg" alt>
+                                <p>Aijin</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/naruto.jpg" alt="">
+                                <p>Naruto</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/one-piece.jpg" alt="">
+                                <p>One Piece</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/one-punch-man.jpeg" alt="">
+                                <p>One-Punch Man</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/manga/my-hero-aca.jpg" alt="">
+                                <p>My Hero Academy</p>
+                            </a>
+                        </li>
+                        <li class="empty"></li>    <!-- used to trick the "flex" function (this function helps with sorting), purely for the artistic view of the manga's positions -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            
+        </section>    
+    </div>
+    
+<!-- Decided to mute this part lol
+    <footer id="footer">
+        <p>To donate, please contact:</p>
+        <p>Tel: +36 12 345 6789</p>
+        <p>Email: abc@gmail.com</p>
+    </footer>
+-->
+</body>
+</html>
